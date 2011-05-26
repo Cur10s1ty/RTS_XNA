@@ -13,6 +13,8 @@ namespace PathfindingTest.Units
     public abstract class CombatUnit : Unit
     {
 
+        //koekjes
+
         public LinkedList<Unit> enemiesInRange { get; set; }
 
         public float range { get; set; }
